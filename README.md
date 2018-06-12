@@ -7,7 +7,7 @@ This repository aims to guide user through using the CLAW Language directive as 
 ## Part 1: CLAW Compiler and Low-level directive
 
 ### Exercise 1.1: Loop fusion
-Original code is [here](exercises/ex1/code.f90)
+Original code is [here](exercises/ex1/code1.1.f90)
 1. Merge all the 4 loops together to for only 1. [[solution]](solutions/ex1/solution1.1.1.f90) [[transformed]](solutions/ex1/result1.1.1.f90)
 2. Merge the two first loops together and the two last ones together. [[solution]](solutions/ex1/solution1.1.2.f90) [[transformed]](solutions/ex1/result1.1.2.f90)
 
@@ -15,6 +15,9 @@ Original code is [here](exercises/ex1/code.f90)
 `clawfc -o transformed_code.f90 code.f90`
 
 ### Exercise 1.2: Loop reordering
+Original code is [here](exercises/ex1/code1.2.f90)
+
+1. Reorder loop `i` with `j` [[solution]](solutions/ex1/solution1.2.1.f90) [[transformed]](solutions/ex1/result1.2.1.f90)
 
 ### Exercise 1.3:
 
