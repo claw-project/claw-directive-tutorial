@@ -8,7 +8,7 @@ This repository aims to guide user through using the CLAW Language directive as 
 
 ### Exercise 1.1: Loop fusion
 Original code is [here](exercises/ex1/code1.1.f90)
-1. Merge all the 4 loops together to for only 1. [[solution]](solutions/ex1/solution1.1.1.f90) [[transformed]](solutions/ex1/result1.1.1.f90)
+1. Merge all the 4 loops together to form only single loop. [[solution]](solutions/ex1/solution1.1.1.f90) [[transformed]](solutions/ex1/result1.1.1.f90)
 2. Merge the two first loops together and the two last ones together. [[solution]](solutions/ex1/solution1.1.2.f90) [[transformed]](solutions/ex1/result1.1.2.f90)
 
 ##### Hint to transform your code
