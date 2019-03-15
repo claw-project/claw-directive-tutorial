@@ -19,6 +19,9 @@ Original code is [here](exercises/ex1/code1.2.f90)
 
 1. Reorder loop `i` with `j` [[solution]](solutions/ex1/solution1.2.1.f90) [[transformed]](solutions/ex1/result1.2.1.f90)
 
+##### Hint to transform your code
+`clawfc -o transformed_code.f90 code.f90`
+
 ### Exercise 1.3:
 
 
